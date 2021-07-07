@@ -15,7 +15,6 @@ public class Cliente {
     private String cidade;
     private String uf;
     private String email;
-    private int ddd;
     private String celular;
     private String fixo;
     private String rg;
@@ -23,22 +22,6 @@ public class Cliente {
     
     //construtor
      public Cliente() {
-        this.codigo = codigo;
-        this.nome = nome;
-        this.endereco = endereco;
-        this.nascimento = nascimento;
-        this.numero = numero;
-        this.complemento = complemento;
-        this.cep = cep;
-        this.bairro = bairro;
-        this.cidade = cidade;
-        this.uf = uf;
-        this.email = email;
-        this.ddd = ddd;
-        this.celular = celular;
-        this.fixo = fixo;
-        this.rg = rg;
-        this.cpf = cpf;
     }
         
 
@@ -54,7 +37,6 @@ public class Cliente {
         this.cidade = cidade;
         this.uf = uf;
         this.email = email;
-        this.ddd = ddd;
         this.celular = celular;
         this.fixo = fixo;
         this.rg = rg;
@@ -150,15 +132,7 @@ public class Cliente {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    public int getDdd() {
-        return ddd;
-    }
-
-    public void setDdd(int ddd) {
-        this.ddd = ddd;
-    }
-
+    
     public String getCelular() {
         return celular;
     }
