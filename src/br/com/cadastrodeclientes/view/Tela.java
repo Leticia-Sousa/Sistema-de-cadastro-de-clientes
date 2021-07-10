@@ -435,7 +435,6 @@ public class Tela extends javax.swing.JFrame {
             }
         });
 
-        tabela.setForeground(new java.awt.Color(181, 218, 255));
         tabela.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
