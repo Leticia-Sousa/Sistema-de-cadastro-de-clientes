@@ -642,7 +642,7 @@ public class Tela extends javax.swing.JFrame {
     }//GEN-LAST:event_botaoNovoMouseClicked
 
     private void tabelaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_tabelaMouseClicked
-        // TESTE
+        // RETORNAR DADOS A TELA DE CADASTRO PARA EDITAR
         
          int posicao = tabela.getSelectedRow();
         
